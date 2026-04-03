@@ -23,12 +23,12 @@ This research compares a recursive stochastic approach (ARIMAX) against a direct
 3. **Seasonal Partitioning:**
 To account for the distinct weather patterns in the Philippines, the data is partitioned into four folds:
 
-| Fold | Season | Training Range | Testing Range | Training Rows |
+| **Fold** | **Season** | **Training Range** | **Testing Range** | **Training Rows** |
 | :--- | :--- | :--- | :--- | :---: |
-| **1** | Habagat | Jan 2023 – Aug 2025 | Sep 01 – Sep 14, 2025 | 973 |
-| **2** | Transition | Jan 2023 – Oct 2025 | Nov 01 – Nov 14, 2025 | 1034 |
-| **3** | Amihan | Jan 2023 – Jan 2026 | Feb 01 – Feb 14, 2026 | 1126 |
-| **4** | Dry Season | Jan 2023 – Feb 2026 | Mar 01 – Mar 14, 2026 | 1154 |
+| 1 | Habagat | Jan 2023 – Aug 2025 | Sep 01 – Sep 14, 2025 | 973 |
+| 2 | Transition | Jan 2023 – Oct 2025 | Nov 01 – Nov 14, 2025 | 1034 |
+| 3 | Amihan | Jan 2023 – Jan 2026 | Feb 01 – Feb 14, 2026 | 1126 |
+| 4 | Dry Season | Jan 2023 – Feb 2026 | Mar 01 – Mar 14, 2026 | 1154 |
 
 4. **Evaluation and Validation:**
 * **Multivariate Validation:** Hotelling's $T^2$ test to detect mean vector drift in $14$-day forecasts.
@@ -41,7 +41,7 @@ To account for the distinct weather patterns in the Philippines, the data is par
 
 The study evaluated the $14$-day predictive accuracy across four distinct seasonal folds. The **ARIMAX** model was compared against the **Direct Multi-Step LMLR**.
 
-| Season | Target Variable | ARIMAX RMSE | LMLR RMSE | DM p-value | Verdict |
+| **Season** | **Target Variable** | **ARIMAX RMSE** | **LMLR RMSE** | **DM p-value** | **Verdict** |
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | Habagat | Temperature | 0.5492 | 0.5935 | 0.63697 | Tie |
 | Habagat | Humidity | 1.4973 | 4.0254 | 0.01704 | **ARIMAX** |
