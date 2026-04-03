@@ -1,14 +1,14 @@
-# City of Manila Seasonal Weather Forecasting: A Comparative Study
+# 🛰️ City of Manila Seasonal Weather Forecasting: A Comparative Study
 ### Evaluating 14-Day Ahead Weather Predictions in the City of Manila: A Comparative Multivariate Study Using ARIMAX and Lagged Multiple Linear Regression
 
 ---
 
-## Research Overview
+## 📖 Research Overview
 This research compares a recursive stochastic approach (ARIMAX) against a direct deterministic approach (Lagged Multiple Linear Regression) to determine which better maintains predictive stability over a 14-day horizon. The models are evaluated using statistical tools such as Hotellings $T^2$ Test and Diebold-Mariano Test and standard metrics such as MAE and RMSE.
 
 ---
 
-## Methodology and Framework
+## ⚙️ Methodology and Framework
 1. **Preprocessing and Dimensionality Reduction:**
 * **Data Source:** 15 meteorological parameters sourced from the Open-Meteo API.
 * **Stationarity:** All features subjected to Augmented Dickey-Fuller Testing and non-staionary variables (Dew Point) were first-order differenced.
@@ -58,7 +58,7 @@ The **LMLR** model failed to capture the volatility of the seasons (although Hot
 
 ---
 
-## Academic Context
+## 🎓 Academic Context
 **Institution:** Southern Luzon State University <br>
 **College:** College of Arts and Sciences <br>
 **Degree:** Bachelor of Science in Mathematics <br>
@@ -71,7 +71,7 @@ This research serves as a partial requirement for the following courses:
 
 ---
 
-## Research Team
+## 👥 Research Team
 This study is a collaborative effort by a six-member research group.
 
 * **[Sieg Gabriel Sola](https://www.linkedin.com/in/sieg-gabriel-sola) (Technical Lead):** Responsible for the mathematical framework, Python implementation, ARIMAX architecture, and statistical diagnostics (PCA, PACF, Hotelling’s $T^2$).
