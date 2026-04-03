@@ -34,7 +34,7 @@ To account for the distinct weather patterns in the Philippines, the data is par
 
 ## 📊 Summary of Results
 
-The study evaluated the 14-day predictive accuracy across four distinct seasonal folds. The **ARIMAX-PCA** (Stochastic) model was compared against the **Direct Multi-Step LMLR** (Deterministic Baseline).
+The study evaluated the 14-day predictive accuracy across four distinct seasonal folds. The **ARIMAX** model was compared against the **Direct Multi-Step LMLR**.
 
 | Season | Target Variable | ARIMAX RMSE | LMLR RMSE | DM p-value | Verdict |
 | :--- | :--- | :---: | :---: | :---: | :---: |
@@ -52,6 +52,9 @@ The study evaluated the 14-day predictive accuracy across four distinct seasonal
 | **Dry Season** | Wind Speed | 1.7485 | 2.3590 | 0.10653 | Tie |
 
 ![ARIMAX vs LMLR Predictions Lineplots](plots/ARIMAX%20vs%20LMLR%20Predictions%20Lineplots.png)
+
+## Summary of Findings
+The **LMLR** model failed to capture the volatility of the seasons (although Hotelling's $T^2$ validated the mean vector of predictions at $\alpha=0.05$). The DM-Test ($\alpha=0.05$) revealed that the **ARIMAX** framework significantly outperformed the LMLR in 6 out of the 12 scenarios while maintaining statistical parity of the remaining scenarios.
 
 ---
 
