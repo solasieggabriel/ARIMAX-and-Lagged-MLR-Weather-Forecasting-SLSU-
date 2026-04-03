@@ -54,7 +54,7 @@ The study evaluated the 14-day predictive accuracy across four distinct seasonal
 ![ARIMAX vs LMLR Predictions Lineplots](plots/ARIMAX%20vs%20LMLR%20Predictions%20Lineplots.png)
 
 ## Summary of Findings
-The **LMLR** model failed to capture the volatility of the seasons (although Hotelling's $T^2$ validated the mean vector of predictions at $\alpha=0.05$). The DM-Test ($\alpha=0.05$) revealed that the **ARIMAX** framework significantly outperformed the LMLR in 6 out of the 12 scenarios while maintaining statistical parity of the remaining scenarios.
+The **LMLR** model failed to capture the volatility of the seasons (although Hotelling's $T^2$ validated the mean vector of **LMLR** predictions at $\alpha=0.05$). The DM-Test ($\alpha=0.05$) revealed that the **ARIMAX** framework significantly outperformed the LMLR in 6 out of the 12 scenarios while maintaining statistical parity of the remaining scenarios.
 
 ---
 
