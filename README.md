@@ -80,6 +80,6 @@ This study is a collaborative effort by a six-member research group.
 * **[Sieg Gabriel Sola](https://www.linkedin.com/in/sieg-gabriel-sola) (Technical Lead):** Responsible for the mathematical framework, Python implementation, ARIMAX architecture, and statistical diagnostics (PCA, PACF, Hotelling’s $T^2$).
 * **Co-Authors:** C.M.R., D.L.O., Je.S., Jo.S., K.N.L. (Literature Review and Theoretical Framework).
 
-### Special thanks to A.A. for the academic guidance provided throughout the duration of the Mathematics courses.
+Special thanks to A.A. for the academic guidance provided throughout the duration of the Mathematics courses.
 
 ---
