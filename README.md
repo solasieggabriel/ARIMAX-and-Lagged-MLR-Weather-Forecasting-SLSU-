@@ -77,7 +77,7 @@ This research serves as a partial requirement for the following courses:
 ## 👥 Research Team
 This study is a collaborative effort by a six-member research group.
 
-* **[Sieg Gabriel Sola](https://www.linkedin.com/in/sieg-gabriel-sola) (Technical Lead):** Responsible for the mathematical framework, Python implementation, ARIMAX architecture, and statistical diagnostics (PCA, PACF, Hotelling’s $T^2$).
+* **[Sieg Gabriel Sola](https://www.linkedin.com/in/sieg-gabriel-sola) (Technical Lead):** Responsible for the mathematical framework, Python implementation, models' architectures, and statistical tests and analyses.
 * **Co-Authors:** C.M.R., D.L.O., Je.S., Jo.S., K.N.L. (Literature Review and Theoretical Framework).
 
 Special thanks to A.A. for the academic guidance provided throughout the duration of the MAT25 and MAT26 courses.
